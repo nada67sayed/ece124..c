@@ -1,0 +1,462 @@
+    .navigation{
+        text-align: center;
+        color: #676767;
+        background: #333333;
+        border: 2px solid ;
+        border-radius: 3px;
+        margin: 10px;
+        margin-top: -30px;
+        margin-left: 0px;
+        width: 101%;
+        position: sticky;
+        top: 0;
+        transition: all 2s;
+        
+        
+    }
+    .active{
+        background-color: #111111;
+        transition: all 3s;
+    }
+    ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        
+    }
+    ul li{
+        display: inline-block;  
+    }
+    li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+            font-size: 45px;
+        }
+                
+    li a:hover {
+      background-color: #111111;
+        }
+    li a:hover:not(.active) {
+      background-color: #111;
+        }
+   
+    
+    .head1{
+        font-family: 'Oswald', sans-serif;
+        font-size:60px;
+        color:#111111;
+        text-align: center;
+        padding: 0px;
+        margin-top: -10px;
+        transition: all 2s;
+        
+    }
+    body{ 
+        margin: 0;
+        padding: 0;
+        font-family: 'East Sea Dokdo', cursive;
+        margin-right: 20px;
+    }
+    .search{
+        float: right;
+        margin-left: 50px;
+        margin-right: -110px;
+        margin-right: -170px;
+        margin-top: 2px;
+        width: 20%;
+    }
+    .search_input{
+        width:100%;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        font-size: 10px;
+        background-color: white;
+        padding: 12px 20px 12px 10px;
+        transition: all 2s;
+        outline: none;
+    }
+    .search_input:hover{
+        border: 2px solid #555;
+    }
+    .search_input:focus{
+         border: 2px solid #555;
+    }
+    .search_button{
+        float: right;
+        width: 20%;
+        
+        margin-right: -650px;
+        margin-top: -4px;
+        margin-right: -650px;
+        
+    }
+    .search_button_style{
+        width: 40%;
+        background-color:  #778899;
+        color: white;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 25px;
+        font-family: 'East Sea Dokdo', cursive;
+        outline: none;
+        transition: all 1s;
+        
+    }
+    .search_button_style:hover{
+        background-color: #808080;
+    }
+    div.signup{
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        text-align: left;
+        padding: 70px;
+        margin: 40px;
+        margin-top: -10px; 
+        font-size: 30px;
+    }
+    .h_signup{
+        text-align: center;
+        font-size: 60px;
+        margin-top: -55px; 
+        
+    }
+    .Form_input{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border: 3px solid #ccc;
+        transition: all 2s;
+        outline: none;
+        border-radius: 5px;
+        box-sizing: border-box;
+        
+    }
+    .Form_input:hover{
+        border: 3px solid #555;
+    }
+    .Form_input:focus{
+        border: 3px solid #555;
+    }
+    .Form_input2{
+        width: 100%;
+        background-color: #778899;
+        color: white;
+        padding: 10px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 25px;
+        font-family: 'East Sea Dokdo', cursive;
+        transition:all 2s;
+    }
+    
+    .Form_input2:hover {
+        background-color: #808080;
+    }
+    .signup_P{
+        margin-top: -7px;
+        margin-bottom: -10px
+    }
+    .span{
+        
+        color: #1E90FF;
+        transition:all 1s;
+        
+    }
+    .span:hover{
+        color: 	blue ;
+    }
+    .login_head{
+        margin-top: -20px;
+    }
+    .login2{
+        margin-top: -23px;
+    }
+    .login_p{
+        text-align: center;
+    }
+    
+    .login{
+        float: right;
+        font-size: 30px;
+        border: 2px solid #777 ;
+        border-radius: 10px;
+        text-align: center;
+        margin: 10px;
+        margin-top: 65px;
+        padding: 30px;
+       
+        top: 92px;
+    }
+    .login_input{
+        outline: none;
+        width: 100%;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        transition: all 0.9s;
+        background-color: white;
+        padding: 12px 20px 12px 10px;
+    
+    }
+    .login_input:hover{
+        border: 2px solid #555;
+    }
+    .login_input:focus{
+        border: 2px solid #555;
+    }
+    .checkbox{
+        margin-left: -80px;
+    }
+    .login_input2{
+        width: 100%;
+        background-color:  #778899;
+        color: white;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 25px;
+        font-family: 'East Sea Dokdo', cursive;
+        outline: none;
+        transition: all 0.7s;
+    }
+    .login_input2:hover{
+        background-color: #808080;
+    }
+    .first_P{
+        margin: 10px;
+        padding: 0px;
+        
+    }
+    .paragraph{
+        font-size: 30px;
+        margin-right:  0px;
+        margin-left: 10px;
+        margin-top: -15px;
+        padding: 20px 0;
+        color: #DC143C;
+    }
+    
+    div.gallery{
+        margin: 5px;
+        margin-left: 85px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 280px;
+        height: 392px;
+        transition: all 1s;
+    }
+    div.gallery:hover{
+        border: 7px solid white;
+    }
+    
+    div.gallery img{
+        width: 60%;
+        height: auto;
+    }
+    
+    
+    div.desc{
+        padding: 30px;
+        text-align: center;
+        font-size: 42px;
+    }
+    .legend{
+        font-size: 40px;
+        color: black;
+        text-decoration: none;
+        transition: all 2s;
+    }
+    .legend:hover{
+        font-size: 45px;
+        color: #DC143C;
+    }
+    div.fieldset{
+        margin-top: -50px; 
+    }
+    
+    
+    .fieldset2{
+        margin-top: 30px;
+        margin-right: 300px;
+        margin-bottom: 150px;
+    }
+    .desc_ahmed{
+        padding: 30px;
+        margin-bottom: -300px;
+        margin-top: -25px;
+        text-align: center;
+        font-size: 38px;
+
+    }
+    .fielsdset3{
+        margin-top: -110px;
+        margin-right: 300px;
+        margin-bottom: 150px;
+        
+        
+    }
+    .desc_Messi{
+        padding: 30px;
+        margin-bottom: -300px;
+        margin-top: -35px;
+        text-align: center;
+        font-size: 38px;
+        
+    }
+    .desc_Salah{
+        padding: 30px;
+        margin-bottom: -300px;
+        margin-top: -45px;
+        text-align: center;
+        font-size: 38px;
+    }
+    .fielsdset4{
+        margin-top: -110px;
+        margin-right: 300px;
+        margin-bottom: 150px;
+        
+    }
+    .desc_Jason{
+        padding: 30px;
+        margin-bottom: -300px;
+        margin-top: -40px;
+        text-align: center;
+        font-size: 38px;
+        
+    }
+    .End{
+        width: 101.6%;
+        height:155px;
+        background: #333333;
+        
+        
+    }
+    .End_P{
+        font-size: 40px;
+        text-align:center;
+        margin-top: -100px;
+        margin: 10px;
+        
+    }
+    .End_span{
+        color: white;
+        transition: all 3s;
+        cursor: pointer;
+    }
+    .End_span:hover{
+        color: #555;
+    }
+    .socialmedia{
+        margin: 620px;
+        margin-top:100px; 
+        display: inline;
+        font-size: 30px;
+        margin-right: 100px;
+        
+        
+        transition: all 7s;
+    }
+    .socialmedia a{
+        padding: 10px;
+        font-size: 5px;
+    }
+    .socialmedia img[alt="facebook"]{
+        height: 50px;
+        width: 50px;
+        color: white;
+        border-radius: 50%; 
+    }
+    .socialmedia img[alt="twitter"]{
+        height: 50px;
+        width: 50px;
+        color: white;
+        border-radius: 50%; 
+    }
+    .socialmedia img[alt="G-Mail"]{
+        height: 50px;
+        width: 50px;
+        color: white;
+        border-radius: 50%; 
+    }
+    
+    .table_head_div{
+        margin: 60px;
+        text-align: center;
+        margin-top: -40px;
+        transition: all 3s;
+        margin-right: 100px;
+    }
+    .table_head{
+        font-size: 60px;
+        
+        
+    }
+    .paragraph_div{
+        margin-left: 18px;
+        margin-top: -40px;      
+    }
+    .paragraph_div_style{
+        font-size: 30px;
+        color: #DC143C;
+        
+    }
+    .div_table{
+        margin: 50px;
+        font-size: 40px;
+        padding: 40px;
+        margin-left: -20px;
+        width: 100%;
+        margin-right: -200px;
+        margin-top: -60px;
+    }
+    table {
+            
+            border-collapse: collapse;
+            width: 98%;
+            transition: all 1s;
+    }
+          
+    td, th {
+             border: 1px solid #dddddd;
+             text-align: left;
+             padding: 8px;
+             
+             
+    }
+    
+    tr:nth-child(even) {
+            background-color: #dddddd;
+    }
+    
+    .Field{
+        
+        color: black;
+        transition: all 2s;
+    }
+    .Field:hover{
+        font-size: 43px;
+        color: #DC143C;   
+    }
+    .div_iframe{
+        background-color: #dddddd  ;
+        border:1px solid black ;
+        border-radius: 40px;
+        width: 98%;
+        height: 900px;
+        margin-right: -100px;
+        margin-left: 20px;
+        margin-top: -50px;
+        transition: all 3s;
+        
+    }
